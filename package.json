@@ -1,0 +1,8 @@
+{
+  "name": "personal-react-starter",
+  "version": "1.0.0",
+  "description": "A personal react-starter-kit",
+  "main": "index.js",
+  "author": "lindell.io",
+  "license": "MIT"
+}
