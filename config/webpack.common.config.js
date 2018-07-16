@@ -24,7 +24,7 @@ const config = {
         exclude: /node_modules/
       },
       {
-        test: /\.scss$/,
+        test: /\.s?css$/,
         use: [{
           loader: 'style-loader'
         }, {
@@ -36,7 +36,7 @@ const config = {
     ]
   },
   resolve: {
-    'extensions': ['.js', '.jsx', '.ts', '.tsx', '.scss']
+    'extensions': ['.js', '.jsx', '.ts', '.tsx', '.css', '.scss']
   },
   plugins: [
     new webpack.ProgressPlugin(),
